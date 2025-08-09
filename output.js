@@ -1,4 +1,4 @@
-//Sat Aug 09 2025 03:38:05 GMT+0000 (Coordinated Universal Time)
+//Sat Aug 09 2025 03:40:55 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 (() => {
@@ -2744,11 +2744,7 @@
         }],
         _isCommand: true
       }], {}), "CMYKColorMode" == _0x4568ca || "grayscaleMode" == _0x4568ca) {
-        if ("CMYKColorMode" == _0x4568ca) {
-          var _0x4cdb03 = "CMYK";
-        } else {
-          _0x4cdb03 = "gray";
-        }
+        if ("CMYKColorMode" == _0x4568ca) {} else {}
         await _0xe78a2e([{
           _obj: "convertMode",
           to: {
@@ -2765,7 +2761,7 @@
               _ref: [{
                 _ref: "channel",
                 _enum: "channel",
-                _value: _0x4cdb03
+                _value: "gray"
               }, {
                 _ref: "layer",
                 _name: "Distressor: Fill Shape"
@@ -3776,13 +3772,12 @@
     _0x16659e.addEventListener("click", _0x32917c => {
       _0x32917c.stopPropagation();
       _0x5bf4c0(62).core.executeAsModal(async _0x1f4f5e => {
-        let _0x172e57 = "Hide Distress";
-        document.getElementById("hideDistress").classList.contains("enactedBG") && (_0x172e57 = "Show Distress");
+        document.getElementById("hideDistress").classList.contains("enactedBG");
         let _0x17b315 = _0x1f4f5e.hostControl;
         let _0x416a7b = await _0x279b08.activeDocument._id;
         let _0x44a7a6 = await _0x17b315.suspendHistory({
           historyStateInfo: {
-            name: _0x172e57,
+            name: "Show Distress",
             target: [{
               _ref: "document",
               _id: _0x416a7b
